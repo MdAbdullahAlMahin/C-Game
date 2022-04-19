@@ -1,12 +1,3 @@
-# ENGG1340-Group-92
-This repository is used to house all the files of our group project for the course ENGG1340
-Group: 92
-Members: 1) Md Abdullah Al Mahin, UID: 3035767528,
-	    Contribution : About 50 percent
-         2) Antara Fairooz Hasan, UID: 3035831276,
-            Contribution : About 50 percent
-Note: The game files were created on Windows and therefore the github contributions page may not be accurate.
-         
 Description: 
 	An original, action-based game that we're calling 'Escape from Hotel Cecil' . 
 
