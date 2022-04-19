@@ -1,0 +1,347 @@
+The game is full of different choices and the sets are randomly generated so it is very hard to make sample test case for it
+To overcome this issue, we introduced the "debug mode". 
+We give the player great power such that he/she can one hit KO most enemies. This shoud greatly speed up the process of checking.
+input : 
+1 1 5
+to get the easiest and fastest playthrough of the game.
+
+
+
+
+Sample Run 1 (debug mode on):
+
+      Welcome to our game,
+    ESCAPE FROM HOTEL CECIL
+
+1 : New Game
+2 : Load Game
+3 : Exit
+
+Enter Command : 1
+
+Starting new game. Please read Readme.txt for detailed explanation of features for our game.
+Turn debug mode on? Will make fights much more easier. input 0 for no, 1 for yes.
+Enter command : 1
+
+Total Floors (Please enter a number between 5 and 15 for the best experience) : 4
+
+Please enter a number at least above 5
+Enter number of floors : 5
+Welcome to the infamous Hotel Cecil.
+Unfortunately for you, the infamous Charles Manson has taken over the hotel and threatens to kill you.
+You must now escape this nightmare.
+You start at the top of the hotel, and must make your way down.
+Have fun! Hope something sinister doesn't happen to you.
+
+You will have the choices of taking 3 ways each floor.
+One contains an enemy, one contains a treasure, the other has nothing.
+Make the right choices and you'll get out a safe man/woman.
+
+Current Floor : 1
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 1
+
+A cult member stops you in your tracks! You begin a fight.
+
+Enemy Health : 40.00
+Player Health : 100.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 2
+Defense boosted by 2!
+
+Enemy Health : 40.00
+Player Health : 100.00
+
+Enemy's turn.
+Your enemy attacks you, and you take 3.00 damage!
+
+Enemy Health : 40.00
+Player Health : 97.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 1
+Attack hits and you do 50.00 damage to your enemy!
+Your enemy dies! You move on safe.
+
+Current Floor : 2
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 2
+
+Lucky you! There is no one and nothing here, you move on safely.
+
+Current Floor : 3
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 3
+
+You gain 10 Health.
+
+Current Floor : 4
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 2
+
+Lucky you! There is no one and nothing here, you move on safely.
+
+Current Floor : 5
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 1
+
+A cult member stops you in your tracks! You begin a fight.
+
+Enemy Health : 75.00
+Player Health : 107.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 1
+Attack hits and you do 50.00 damage to your enemy!
+
+Enemy Health : 25.00
+Player Health : 107.00
+
+Enemy's turn.
+Your enemy attacks you, and you take 5.00 damage!
+
+Enemy Health : 25.00
+Player Health : 102.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 3
+Escaped safely
+Congrats, you escaped away safely.
+
+Returning to Main Menu...
+
+1 : New Game
+2 : Load Game
+3 : Exit
+
+Enter Command : 3
+Bye Bye
+
+Process returned 0 (0x0)   execution time : 45.647 s
+Press any key to continue.
+
+
+
+
+Sample Run 2 (debug mode on):
+
+      Welcome to our game,
+    ESCAPE FROM HOTEL CECIL
+
+1 : New Game
+2 : Load Game
+3 : Exit
+
+Enter Command : 1
+
+Starting new game. Please read Readme.txt for detailed explanation of features for our game.
+Turn debug mode on? Will make fights much more easier. input 0 for no, 1 for yes.
+Enter command : 1
+
+Total Floors (Please enter a number between 5 and 15 for the best experience) : 5
+
+Welcome to the infamous Hotel Cecil.
+Unfortunately for you, the infamous Charles Manson has taken over the hotel and threatens to kill you.
+You must now escape this nightmare.
+You start at the top of the hotel, and must make your way down.
+Have fun! Hope something sinister doesn't happen to you.
+
+You will have the choices of taking 3 ways each floor.
+One contains an enemy, one contains a treasure, the other has nothing.
+Make the right choices and you'll get out a safe man/woman.
+
+Current Floor : 1
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 1
+
+You found armor, boosting your defense.
+
+Current Floor : 2
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 2
+
+A cult member stops you in your tracks! You begin a fight.
+
+Enemy Health : 40.00
+Player Health : 100.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 1
+Attack hits and you do 50.00 damage to your enemy!
+Your enemy dies! You move on safe.
+
+Current Floor : 3
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 3
+
+You gain 10 Health.
+
+Current Floor : 4
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 4
+
+Enter Slot (Must be between 1 and 3) : 1
+If a file in that slot exists, the old savegame will be erased!
+As this is a game based on random generation, the hotel when you load back the game may change
+Game Saved
+
+
+Current Floor : 4
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 5
+
+1 : New Game
+2 : Load Game
+3 : Exit
+
+Enter Command : 2
+Please make sure savegame exits, if no savegame exits, game will start as if newgameEnter Slot (Must be between 1 and 3) : 1
+
+Loading Savegame 1
+Total Floors : 5
+
+Current Floor : 4
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 1
+
+Lucky you! There is no one and nothing here, you move on safely.
+
+Current Floor : 5
+
+1 : Path 1
+2 : Path 2
+3 : Path 3
+4 : Save Game
+5 : Exit to Main Menu
+
+Enter Command : 2
+
+A cult member stops you in your tracks! You begin a fight.
+
+Enemy Health : 75.00
+Player Health : 110.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 1
+Attack hits and you do 50.00 damage to your enemy!
+
+Enemy Health : 25.00
+Player Health : 110.00
+
+Enemy's turn.
+Your enemy attacks you, and you take 5.00 damage!
+
+Enemy Health : 25.00
+Player Health : 105.00
+
+Players turn, Please make a choice:
+1 : Attack
+2 : Defend
+3 : Try to Escape
+Input : 1
+Attack hits and you do 50.00 damage to your enemy!
+Your enemy dies! You move on safe.
+
+Congrats, you escaped away safely.
+
+Returning to Main Menu...
+
+1 : New Game
+2 : Load Game
+3 : Exit
+
+Enter Command : 3
+Bye Bye
+
+Process returned 0 (0x0)   execution time : 50.607 s
+Press any key to continue.
+
+
+
+
+  
